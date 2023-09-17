@@ -1,0 +1,1 @@
+# Stylometry of painting
