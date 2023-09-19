@@ -1,0 +1,8 @@
+clc
+clear
+LPQfilters=createLPQfilters(3);
+img=imread('cameraman.tif');
+charOri=charOrientation(img);
+LPQhist=ri_lpq(img,LPQfilters,charOri);
+a=imread('1.jpg');
+visualizeCharOrientation(mat2gray(a));
